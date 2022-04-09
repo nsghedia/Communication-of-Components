@@ -1,0 +1,20 @@
+#myParent {
+    width:94.9%;
+    height:50px;
+    background-color:#faba8f;
+    border:5px solid;
+    border-style: dashed;
+    margin: 3px;
+    padding: 25px;
+    font-size: xx-large;
+  }
+
+  input[type=text], select {
+    width: 92%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

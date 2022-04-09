@@ -1,0 +1,9 @@
+<div id="myParent">
+    <p> From Parent :</p>
+    <input type="text" class="form-control" placeholder="Number1" (input)="getTotalAmt()" [(ngModel)]="num1" name="num1"
+        id="num1" />
+    <input class="form-control" style="margin: 5px;" placeholder="Number2" type="text" (input)="getTotalAmt()"
+        [(ngModel)]="num2" name="num2" id="num2" />
+
+    <app-child-one [Addition]="Total" (valueUpdate)="getUpdatedvalue($event)"></app-child-one>
+</div>

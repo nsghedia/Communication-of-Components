@@ -1,0 +1,5 @@
+<div id="myParent">
+    <label for="name">Name:</label>&nbsp;
+    <input type="text" maxlength="50" [(ngModel)]="parentMessage" class="form-control" placeholder="message from parent">
+    <app-child *ngIf="parentMessage" [childMessage]="parentMessage"></app-child>
+</div>

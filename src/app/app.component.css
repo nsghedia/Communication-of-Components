@@ -1,0 +1,13 @@
+#myDIV {
+    width: 94.9%;
+    height: 600px;
+    background-color: #FFFFFF;
+    border: 5px solid;
+    border-style: dashed;
+    margin: 3px;
+    padding: 25px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+  

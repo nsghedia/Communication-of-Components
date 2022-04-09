@@ -1,0 +1,10 @@
+#myChild {
+    width:94.9%;
+    height:35px;
+    background-color:#c4e293;
+    border:5px solid;
+    border-style: dashed;
+    margin: 3px;
+    padding: 25px;
+    font-size: xx-large;
+  }
